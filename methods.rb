@@ -1,12 +1,4 @@
 # Your code here!
-# def my_method(param)
-#   puts "Running my_method"
-#   param + 1
-# end
-
-# my_method_return_value = my_method(1)
-# my_method_return_value
-
 def greet_programmer
   puts "Hello, programmer!"
 end
@@ -27,6 +19,6 @@ def halve(num)
   if num.class != Integer
       return nil
   end
-  
+
   num / 2
 end
